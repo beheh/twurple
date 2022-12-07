@@ -1466,6 +1466,7 @@ export class ChatClient extends IrcClient {
 				case 'msg_slowmode':
 				case 'msg_r9k':
 				case 'msg_verified_email':
+				case 'msg_requires_verified_phone_number':
 				case 'msg_timedout':
 				case 'msg_rejected_mandatory':
 				case 'msg_channel_blocked': {
